@@ -1,2 +1,16 @@
-Isi penjelasan kalian disini gess
-Jangan lupa untuk merubah judul file ini menjadi Penjelasan_[Nama].txt yaaa (tanpa [])
+macam macam komunikasi :
+siplex : komunikasi satu arah. Pihak penerima tidak dapat memberikan informasi balikan. Atau sering juga disebut komunikasi broadcast. Contoh yang menggunakan mode ini adalah siaran televisi dan siaran radio. Mode ini dapat diaplikasikan saat media transmisi yang digunakan dikuasai penuh oleh pihak pengirim
+Duplex : media komunikasi dua arah dimana pihak pengirim dan penerima bisa berkomunikasi dua arah secara bersama-sama. Contohnya adalah telepon. Kedua belah pihak bisa berbincang secara bersama-sama. Mode komunikasi ini dapat diplikasikan saat media transmisi dibagi dua. Satu untuk masing-masing sisi
+Half Duplex : sama seperti duplex, media komunikasi dua arah. Namun, half duplex berkomunikasi dua arah secara saling bergantian. Jadi saat terjadi komunikasi antara A dan B Saat A mengirim informasi (berbicara) maka B akan menerima informasi (mendengarkan). Demikian dengan proses sebaliknya. Contoh media yang menggunakan media ini adalah radio HT
+
+macam macam komunikasi SPI : 
+MOSI (Master Output Slave Input) : sinyal output dari master device yang merupakan shift register dari master menuju input dari slave
+MISO (Master Input Slave Output) : sinyal input dari master device untuk menerima data shift register dari slave device menuju master
+SCK atau SCLK (Serial Clock) : untuk melakukan shifting terhadap shift register dari kedua device.
+SS (Slave Select) : pin yang digunakan untuk memilih slave mana yang akan diajak berkomunikasi oleh master
+
+Komunikasi I2C:
+memungkinkan komunikasi dgn slave yang jumlahnya lebih dari satu. Komunikasi I2C biasanya dilakukan menggunakan dua pin, SDA (Serial Data Line) dan SCL (Serial Clock Line). SDA digunakan untuk mengirim data dan SCL digunakan untuk mengirimkan sinyal clock yang akan mengatur timing komunikasi antar perangkat yang terhubung.
+
+komunikasi UART:
+UART (Universal Asynchronous Receiver/Transmitter) adalah protokol komunikasi asinkron yang digunakan untuk menghubungkan dan mentransmisikan data antar perangkat elektronik. Fungsi utamanya adalah memungkinkan perangkat berkomunikasi satu sama lain dengan metode asinkron, dan kelebihannya meliputi kemudahan penerapan, dukungan luas di berbagai perangkat, dan kecepatan transfer data yang fleksibel
