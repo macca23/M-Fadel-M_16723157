@@ -1,2 +1,5 @@
-Isi penjelasan kalian disini gess
-Jangan lupa untuk merubah judul file ini menjadi Penjelasan_[Nama].txt yaaa (tanpa [])
+macam macam komunikasi :
+siplex : komunikasi satu arah. Pihak penerima tidak dapat memberikan informasi balikan. Atau sering juga disebut komunikasi broadcast. Contoh yang menggunakan mode ini adalah siaran televisi dan siaran radio. Mode ini dapat diaplikasikan saat media transmisi yang digunakan dikuasai penuh oleh pihak pengirim
+Duplex : media komunikasi dua arah dimana pihak pengirim dan penerima bisa berkomunikasi dua arah secara bersama-sama. Contohnya adalah telepon. Kedua belah pihak bisa berbincang secara bersama-sama. Mode komunikasi ini dapat diplikasikan saat media transmisi dibagi dua. Satu untuk masing-masing sisi
+Half Duplex : sama seperti duplex, media komunikasi dua arah. Namun, half duplex berkomunikasi dua arah secara saling bergantian. Jadi saat terjadi komunikasi antara A dan B Saat A mengirim informasi (berbicara) maka B akan menerima informasi (mendengarkan). Demikian dengan proses sebaliknya. Contoh media yang menggunakan media ini adalah radio HT
+Full duplex : dua pihak saling yg berkomunikasi akan mengirimkan informasi dan menerima informasi dalam waktu bersamaan. Umumnya membutuhkan dua jalur komunikasi
